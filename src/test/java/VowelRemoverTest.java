@@ -15,4 +15,10 @@ public class VowelRemoverTest {
     String expected = "h-ll-";
     assertEquals(expected, testVowelRemover.vowelRemover("hello"));
   }
+  @Test
+  public void vowelRemover_oneSentenceReplacesVowelsWithHyphens_SentenceWithoutVowels() {
+    VowelRemover testVowelRemover = new VowelRemover();
+    String expected = "- -m - c-t";
+    assertEquals(expected, testVowelRemover.vowelRemover("I am a cat"));
+  }
 }
