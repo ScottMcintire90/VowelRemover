@@ -21,4 +21,5 @@ public class VowelRemoverTest {
     String expected = "- -m - c-t";
     assertEquals(expected, testVowelRemover.vowelRemover("I am a cat"));
   }
+  
 }
