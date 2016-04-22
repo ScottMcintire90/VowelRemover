@@ -4,12 +4,21 @@ body {
 }
 
 .userInput {
-  border: 1px solid black;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
 
 h1 {
   text-align: center;
+}
+
+#input-sentence {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#myButtons {
+  padding-top: 50px;
 }
