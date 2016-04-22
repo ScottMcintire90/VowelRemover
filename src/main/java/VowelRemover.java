@@ -27,7 +27,8 @@ public class VowelRemover {
   }
 
   public static String vowelRemover(String sentence) {
-
+    String newS = sentence.replaceAll("[AEIOUaeiou]", "-");
+    return newS;
   }
 
 }
