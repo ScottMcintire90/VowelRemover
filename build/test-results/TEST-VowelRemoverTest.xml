@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="VowelRemoverTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-04-22T13:32:37" hostname="Thes-iMac.local" time="0.001">
+<testsuite name="VowelRemoverTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2016-04-22T13:34:06" hostname="Thes-iMac.local" time="0.002">
   <properties/>
-  <testcase name="vowelRemover_oneVowelConvertsToHyphen_Hyphen" classname="VowelRemoverTest" time="0.001">
-    <failure message="org.junit.ComparisonFailure: expected:&lt;[a]&gt; but was:&lt;[-]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[a]&gt; but was:&lt;[-]&gt;
+  <testcase name="vowelRemover_oneVowelConvertsToHyphen_Hyphen" classname="VowelRemoverTest" time="0.001"/>
+  <testcase name="vowelRemover_oneWordReplacesVowelsWithHyphens_WordWithoutVowels" classname="VowelRemoverTest" time="0.001">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;h-ll-[8]&gt; but was:&lt;h-ll-[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;h-ll-[8]&gt; but was:&lt;h-ll-[]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at VowelRemoverTest.vowelRemover_oneVowelConvertsToHyphen_Hyphen(VowelRemoverTest.java:10)
+	at VowelRemoverTest.vowelRemover_oneWordReplacesVowelsWithHyphens_WordWithoutVowels(VowelRemoverTest.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

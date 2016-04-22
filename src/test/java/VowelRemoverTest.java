@@ -9,10 +9,10 @@ public class VowelRemoverTest {
     String expected = "-";
     assertEquals(expected, testVowelRemover.vowelRemover("a"));
   }
-  // @Test
-  // public void vowelRemover_oneWordReplacesVowelsWithHyphens_WordWithoutVowels() {
-  //   VowelRemover testVowelRemover = new VowelRemover();
-  //   String expected = "h-ll-";
-  //   assertEquals(expected, testVowelRemover.vowelRemover("hello"));
-  // }
+  @Test
+  public void vowelRemover_oneWordReplacesVowelsWithHyphens_WordWithoutVowels() {
+    VowelRemover testVowelRemover = new VowelRemover();
+    String expected = "h-ll-";
+    assertEquals(expected, testVowelRemover.vowelRemover("hello"));
+  }
 }
