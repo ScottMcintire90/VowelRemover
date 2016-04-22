@@ -1,3 +1,15 @@
 body {
-  background: green;
+  background: #9fdf9f;
+  font-family: sans-serif;
+}
+
+.userInput {
+  border: 1px solid black;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
 }

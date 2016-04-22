@@ -1,7 +1,17 @@
-<h1>Vowel Remover</h1>
-<h3>Type in a sentence: </h3>
-<form action = '/results' method ='get' class = "form-group">
-  <label for = "userInput">Enter here: </label>
-  <input id = "userInput" name = "userInput" class = "form-control" type = "text">
-  <button type = "submit" class = 'btm'>Remove the vowels!</button>
-</form>
+<h1 class="jumbotron">Vowel Remover</h1>
+<div class="col-md-6">
+  <h3 class="appInfo">About the App</h3>
+  <h4>The purpose of this app is to convert all of the vowels in a sentence to hyphens. There is a two player game aspect where one player can input the sentence and a second player can guess what it is on the results page.</h4>
+  <h3 class="appInfo">About the Author</h3>
+  <h4>My name is Scott McIntire and I am a student at Epicodus. I am currently studying Java and will study JavaScript and Android Development in the future.</h4>
+  <h4>Feel free to check out my GitHub page <a href="https://github.com/ScottMcintire90">here</a>.</h4>
+</div>
+<div class="col-md-6">
+<h3>Type in a sentence:</h3>
+  <form action = '/results' method ='get' class = "form-group">
+    <input id = "userInput" name = "userInput" class = "form-control" type = "text">
+    <br>
+    </br>
+    <button type = "submit" class = 'btm'>Remove the vowels!</button>
+  </form>
+</div>
