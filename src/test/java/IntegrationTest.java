@@ -23,10 +23,10 @@ public class IntegrationTest extends FluentTest {
     assertThat(pageSource()).contains("Vowel Remover");
   }
   @Test
-  public void isALeapYear() {
+  public void resultsTest_HomePageFormValidation_ReturnsHyphentedSentence() {
     goTo("http://localhost:4567");
     fill("#userInput").with("I am a cat");
     submit(".btn");
-    assertThat(pageSource()).contains("Vowel Remover");
+    assertThat(pageSource()).contains("- -m - c-t");
   }
 }
