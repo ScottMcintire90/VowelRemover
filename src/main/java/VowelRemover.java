@@ -7,6 +7,8 @@ import static spark.Spark.*;
 
 public class VowelRemover {
   public static void main(String[] args) {
+    staticFileLocation("/public");
+
     get("/", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
       model.put("template", "templates/home.vtl");
