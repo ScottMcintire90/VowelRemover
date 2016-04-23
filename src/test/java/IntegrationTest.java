@@ -29,4 +29,11 @@ public class IntegrationTest extends FluentTest {
     submit(".btn");
     assertThat(pageSource()).contains("- -m - c-t");
   }
+  @Test
+  public void returnTest_resultsPage_containsLinkToHomePage() {
+      goTo("http://localhost:4567");
+      fill("#userInput").with("I am a cat");
+      submit(".btn");
+      assertThat(pageSource()).contains("a href=\"/\"");
+  }
 }
